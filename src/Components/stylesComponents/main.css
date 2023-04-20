@@ -1,0 +1,7 @@
+.main{
+    display: flex;
+    justify-content: center;
+    grid-area: main;
+    background-color: #e7e5e5d2;
+    flex-direction: column;
+}

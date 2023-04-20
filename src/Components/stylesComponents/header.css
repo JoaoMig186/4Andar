@@ -1,0 +1,82 @@
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: header;
+    position: fixed;
+    z-index: 100;
+}
+
+.caixa_menu{
+    background-color: transparent;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75vw;
+}
+
+#menuMobile_icone{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1000;
+    display: none;
+}
+
+#menuMobile_icone div{
+    margin: 5px;
+    height: 3px;
+    width: 100px;
+    background-color: #000000;
+}
+
+h1{
+    color: #f9f9f9;
+    font-size: 40px;
+    font-weight: 900;
+    justify-self: center;
+    cursor: pointer;
+}
+
+li{
+    color: #ffffff;
+    font-size: 1.0rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li:hover::after {
+    content: ''; /* adiciona conteúdo vazio após o link */
+    display: block; /* define como bloco */
+    position: absolute; /* define a posição absoluta em relação ao link */
+    width: 2%; /* define a largura como 100% do link */
+    height: 2px; /* define a altura da linha */
+    bottom: 10; /* posiciona a linha na parte inferior do link */
+    background-color: #ffffff; /* define a cor da linha */
+  }
+
+.One_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.two_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+} 
+

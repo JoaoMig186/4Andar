@@ -1,0 +1,8 @@
+.container_grid{
+    font-family: 'Chakra Petch', sans-serif;
+    display: grid;
+    grid-template-areas: "header header header"
+    "main main main"
+    "footer footer footer";
+    overflow: hidden;
+}

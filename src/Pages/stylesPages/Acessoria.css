@@ -1,0 +1,103 @@
+
+
+.caixa_menu{
+    height: 100%;
+}
+
+.caixa1{
+    display: none;
+}
+
+.div-form{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    color: white;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+
+.div-form div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-form div:nth-child(2) h4{
+    font-size: 25px;
+    text-align: center;
+}
+
+form{
+    margin-top:25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+form input, form textarea{
+    width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px 0;
+    border: none;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+    ;
+}
+
+form textarea{
+    padding-bottom: 50px;
+}
+
+form span{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 20px;
+    width: 60%;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #00bf72;
+    font-weight: 700;
+    border: none;
+}
+
+.tabela{
+    flex-direction: column;
+    display: flex;
+}
+
+.cadaItem{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    font-size: 20px;
+}
+.cadaItem span{
+    color:#fff
+}
+
+.cadaItem:hover{
+    border: 2px solid #051937;
+    cursor: default;
+}
+

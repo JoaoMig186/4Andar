@@ -1,0 +1,6 @@
+.landingPage{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../Assets/backgroundhacker.jpg');
+    background-size: cover;
+}

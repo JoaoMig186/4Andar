@@ -1,0 +1,46 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "João Miguel",
+      "email": "joao.msantos@al.infnet.edu.br",
+      "numero": "6515166262626",
+      "desc": "fsafasfasf"
+    },
+    {
+      "id": 2,
+      "nome": "Lucas",
+      "email": "lucas@gmail",
+      "numero": "62611129691",
+      "desc": "saffasfasfasfasf"
+    },
+    {
+      "id": 3,
+      "nome": "Pedro",
+      "email": "lucas@gmail",
+      "numero": "62611129691",
+      "desc": "saffasfasfasfasf"
+    },
+    {
+      "id": 4,
+      "nome": "fsaasfasf",
+      "email": "asfasfasf",
+      "numero": "651561262",
+      "desc": "safafsasf"
+    },
+    {
+      "id": 5,
+      "nome": "Joao",
+      "email": "gasgasga",
+      "numero": "1651541516",
+      "desc": "asgasgasgsagf"
+    },
+    {
+      "id": 6,
+      "nome": "Thiago",
+      "email": "asgasgsagas",
+      "numero": "165485151448",
+      "desc": "sagasgasgasgags"
+    }
+  ]
+}
